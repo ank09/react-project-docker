@@ -9,7 +9,7 @@ services:
         # Map local machine's 8000 port to container's port 3000
         # React app runs on port 3000 by default
         ports:
-            - "8000:3000"
+            - "4050:3000"
         # Volumes
         volumes:
             # Do not touch node_modules folder in the container
